@@ -1,0 +1,12 @@
+services:
+  server:
+      image: klakegg/hugo:0.111.3-busybox
+      command: server -D --poll 700ms
+      volumes:
+        - ".:/src"
+      ports:
+        - "1313:1313"
+  # build:
+  #   image: klakegg/hugo:0.111.3-busybox
+  #   volumes:
+  #     - ".:/src"
