@@ -1,6 +1,6 @@
 baseURL: http://bibbox.bbmri-eric.eu/
 languageCode: en-us
-title: BIBBox
+title: BIBBOX
 
 theme: 'hugo-fresh'
 
@@ -17,7 +17,7 @@ params:
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
   # Used as meta data; describe your site to make Google Bots happy
-  description:
+  description: BIBBOX is a platform for biomedical informatics tools. It is a docker based platform that allows researchers and healthcare professionals to access and use biomedical informatics tools in an easy and efficient way.
   # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
   # preloader: false
   navbarlogo:
@@ -34,18 +34,18 @@ params:
     # Main hero title
     title: Basic Infrastucture building Box
     # Hero subtitle (optional)
-    subtitle: With the aim to make it easy for researchers and healthcare professionals to access and use biomedical informatics tools
+    subtitle: With the aim to make it easy for researchers and healthcare professionals to access and use biomedical informatics tools without hassle
     # Button text
-    buttontext: Try Demo
+    buttontext: Read More
     # Where the main hero button links to
-    buttonlink: "https://demo.bibbox.org/info"
+    buttonlink: /about/project
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/*.svg)
     # urls are optional
     clientlogos:
     - logo: docker
-      url: https://hub.docker.com/u/bibbox/http://fair.bibbox.org/instances
+      url: https://hub.docker.com/u/bibbox/
       text: Docker Images
     - logo: github
       url: https://github.com/bibbox
@@ -59,7 +59,7 @@ params:
     sublinks:
     - title: Project
       url: /about/project
-    - title: FAIR and BIBBox
+    - title: FAIR and BIBBOX
       url: /about/fair
     - title: Architecture
       url: /about/architecture
@@ -76,16 +76,16 @@ params:
     button: true
   section1:
     title: Already convinced?
-    subtitle: Start using BIBBox now!
+    subtitle: Start using BIBBOX now!
     tiles:
-    - title: Use BIBBox
+    - title: Use BIBBOX
       icon: laptop-cloud
-      text: Install BIBBox on your server
+      text: Install BIBBOX on your server
       url: /get-started
       buttonText: Get started
     - title: Create App
       icon: plug-cloud
-      text: Create your own BIBBox app
+      text: Create your own BIBBOX app
       url: /create-app
       buttonText: Go to docs
     - title: Learn FAIR
@@ -95,30 +95,26 @@ params:
       buttonText: Read more
   section2:
     title: You're here because you want the best
-    subtitle: And we know it
+    subtitle: So we build it
     features:
     - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      # Icon (from /images/illustrations/icons/___.svg)
+      text: Install different tools within the same interface without in a guided process. No need to worry about dependencies or configurations.
       icon: laptop-globe
     - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      text: All apps are based on docker, so each action can be reproduced on any other system. This makes it easy to share your work with others.
       icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
   section3:
     title: One platform
-    subtitle: To rule them all
+    subtitle: With all the tools you need, ready in in a click
     image: demo.mp4
-    buttonText: See the example
+    buttonText: Test the demo
     buttonLink: "http://fair.bibbox.org/instances"
   section4:
     title: A word from our stake holders!
-    subtitle: We created BIBBox with a vision
+    subtitle: We created BIBBOX with a vision
     clients:
     - name: John Bradley
-      quote: With BIBBox I can focus on my research and not on the infrastructure. I dont need to manage servers and can access all the tools I need in one place.
+      quote: With BIBBOX I can focus on my research and not on the infrastructure. I dont need to manage servers and can access all the tools I need in one place.
       job: Data Scientist
       img: 2
     - name: Irma Walters
@@ -126,37 +122,14 @@ params:
       job: Biomedical Engineer
       img: 1
     - name: Gary Blackman
-      quote: We created BIBBox on the basis of known open source frameworks. The dockerization of the tools and the use of the FAIR Data Points makes it easy to use and to extend.
+      quote: We created BIBBOX on the basis of known open source frameworks. The dockerization of the tools and the use of the FAIR Data Points makes it easy to use and to extend.
       job: Software Developer
       img: 3
   footer:
     # Logo (from /images/logos/___)
     logo: logo.png
-    # Social Media Title
-    socialmediatitle: Find us
-    # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-    - link: https://github.com/StefMa
-      # Icons are from Font Awesome
-      icon: github
-    - link: https://hub.docker.com/u/bibbox/
-      # Icons are from Font Awesome
-      icon: docker
     quicklinks:
       column1:
-        title: "Product"
-        links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
-      column2:
         title: "Docs"
         links:
         - text: Get started
@@ -167,10 +140,3 @@ params:
           link: /create-app
         - text: Read the docs
           link: https://bibbox.readthedocs.io/en/latest/
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second

@@ -52,8 +52,9 @@ You cannot change the themes files directly. You have to create the same file in
 Appart from 'themes/<THEME_NAME>' the file structure has to be the same as in the theme folder.
 
 ## Deployment
+
 ### Manual deployment
-You can manually deploy the website with the following command:
+You can manually generate the website with the following command:
 ```bash
 hugo
 ```

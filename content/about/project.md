@@ -26,6 +26,8 @@ In a virtual machine we will install, configure and connect a core set of ope
 The BIBBOX platform is supported by the following institutions, projects, and people:
 
 ### Funding
+This project has received funding from the European Union’s Horizon 2020 research programme under grant agreement No 857122 (CY-Biobank) and No 874662 (HEAP).
+
 [HEAP](https://heap-exposome.eu/)
 [CY-Biobank](https://cordis.europa.eu/project/id/857122)
 
