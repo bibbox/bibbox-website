@@ -1,0 +1,20 @@
+{{- $hero        := .Site.Params.hero }}
+{{- $clientLogos := index $hero "clientlogos" }}
+<div class="hero-foot mb-20">
+  <div class="container">
+    <div class="tabs is-centered">
+      <ul>
+        {{- range $clientLogos }}
+        <li>
+          <a style="display: flex; flex-direction: column;" {{ if .url }} href="{{ .url }}" {{ end }}>
+            <img class="partner-logo" src="{{ printf "/images/logos/clients/%s.svg" .logo | relURL }}">
+            <h2 class="subtitle mt-20 is-muted">
+              {{ .text }}
+            </h2>
+          </a>
+        </li>
+        {{- end }}
+      </ul>
+    </div>
+  </div>
+</div>

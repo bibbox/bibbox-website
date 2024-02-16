@@ -1,4 +1,4 @@
-FROM node:latest
+FROM --platform=linux/amd64 node:latest
 
 # Install Hugo
 ENV HUGO_VERSION 0.122.0
@@ -7,8 +7,11 @@ RUN wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hug
     && mv hugo /usr/local/bin/ \
     && rm -r hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 
+# install GO
+# RUN apt-get update && apt-get install -y golang-go
+
 # Set the working directory in the container
-WORKDIR /usr/src/app
+#WORKDIR /usr/src/app
 
 # Copy the package.json and package-lock.json (if available)
 # COPY package*.json ./
