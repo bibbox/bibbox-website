@@ -51,7 +51,7 @@ params:
       url: https://github.com/bibbox
       text: GitHub Repo
     - logo: paper
-      url: https://www.sciencedirect.com/science/article/pii/S1871678423000298?via%3Dihub
+      url: https://www.sciencedirect.com/science/article/pii/S1871678423000298
       text: Research Paper
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
@@ -71,6 +71,7 @@ params:
     url: /create-app
   - title: Docs
     url: https://bibbox.readthedocs.io/en/latest/
+    openOnNewPage: true
   - title: Playground
     url: https://demo.bibbox.org/info
     button: true
@@ -98,14 +99,14 @@ params:
     subtitle: So we build it
     features:
     - title: Powerful and unified interface
-      text: Install different tools within the same interface without in a guided process. No need to worry about dependencies or configurations.
+      text: Install different tools within the same interface in a guided process. No need to worry about dependencies or configurations.
       icon: laptop-globe
     - title: Cross-device synchronisation
-      text: All apps are based on docker, so each action can be reproduced on any other system. This makes it easy to share your work with others.
+      text: All apps are based on docker, so each action can be reproduced on any other systems. This makes it easy to share your work with others.
       icon: doc-sync
   section3:
     title: One platform
-    subtitle: With all the tools you need, ready in in a click
+    subtitle: With all the tools you need, ready in a click
     image: demo.mp4
     buttonText: Test the demo
     buttonLink: "http://fair.bibbox.org/instances"
@@ -130,13 +131,17 @@ params:
     logo: logo.png
     quicklinks:
       column1:
-        title: "Docs"
+        title: "Info"
         links:
+        - text: Research Paper
+          link: https://www.sciencedirect.com/science/article/pii/S1871678423000298
+          openOnNewPage: true
+        - text: Read the docs
+          link: https://bibbox.readthedocs.io/en/latest/
+          openOnNewPage: true
         - text: Get started
           link: /get-started
         - text: Example Apps
-          link: /
+          link: /app-examples
         - text: Create your own app
           link: /create-app
-        - text: Read the docs
-          link: https://bibbox.readthedocs.io/en/latest/

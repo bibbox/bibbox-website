@@ -36,6 +36,16 @@ MacOS:
 brew install hugo
 ```
 
+1.1 Make submodule ready
+Change the path in the config of the submodule to the correct path
+file: ./themes/hugo-fresh/config.yaml
+content: 
+```yaml
+module:
+  imports:
+  - path: bulma
+```
+
 2. Start the server
 ```bash
 hugo server -D
