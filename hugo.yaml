@@ -65,6 +65,8 @@ params:
       url: /about/architecture
     - title: Provenance
       url: /about/provenance
+    - title: FAIRified App Examples
+      url: /about/app-examples
   - title: Get started
     url: /get-started
   - title: Create App
@@ -79,21 +81,24 @@ params:
     title: Already convinced?
     subtitle: Start using BIBBOX now!
     tiles:
-    - title: Use BIBBOX
-      icon: laptop-cloud
+    - title: Install BIBBOX
+      icon: plug-cloud
       text: Install BIBBOX on your server
       url: /get-started
       buttonText: Get started
-    - title: Create App
-      icon: plug-cloud
-      text: Create your own BIBBOX app
-      url: /create-app
-      buttonText: Go to docs
-    - title: Learn FAIR
+      openOnNewPage: false
+    - title: See the demo
+      icon: laptop-cloud
+      text: See our example BIBBOX instance. It's readonly, but you can see how it works.
+      url: /demo
+      buttonText: Show me
+      openOnNewPage: false
+    - title: Try the playground
       icon: mouse-globe
-      text: Understand the concept of FAIR data
-      url: /about/fair
-      buttonText: Read more
+      text: A working BIBBOX instance where you can test the tools and the platform.
+      url: https://demo.bibbox.org/info
+      buttonText: Try it out
+      openOnNewPage: true
   section2:
     title: You're here because you want the best
     subtitle: So we build it
@@ -108,21 +113,21 @@ params:
     title: One platform
     subtitle: With all the tools you need, ready in a click
     image: demo.mp4
-    buttonText: Test the demo
-    buttonLink: "http://fair.bibbox.org/instances"
+    buttonText: Try the playground
+    buttonLink: /demo
   section4:
     title: A word from our stake holders!
     subtitle: We created BIBBOX with a vision
     clients:
-    - name: John Bradley
+    - name: Roxana Merino Martinez
       quote: With BIBBOX I can focus on my research and not on the infrastructure. I dont need to manage servers and can access all the tools I need in one place.
       job: Data Scientist
-      img: 2
-    - name: Irma Walters
-      quote: The concept of FAIR Data is crucial for the future of research, as study data often has different formats, missing explanaition or is hard to get. With FAIR Data Points, we can make data more accessible and reusable.
-      job: Biomedical Engineer
       img: 1
-    - name: Gary Blackman
+    - name: John Walters
+      quote: The concept of FAIR-Health is crucial for the secondray use of health data. BIBBOX Apps suppprt the monitoring of data quality and privacy, as well as the documentaion of sample and data provenance.
+      job: Biomedical Engineer
+      img: 2
+    - name: Emilian Jungwirt
       quote: We created BIBBOX on the basis of known open source frameworks. The dockerization of the tools and the use of the FAIR Data Points makes it easy to use and to extend.
       job: Software Developer
       img: 3

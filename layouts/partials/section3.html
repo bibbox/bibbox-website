@@ -25,7 +25,11 @@
                 <p>{{ .text }}</p>
             </div>
             <div class="card-action">
-              <a href="{{ .url }}" class="button btn-align-md accent-btn raised">{{ .buttonText }}</a>
+              {{- if .openOnNewPage }}
+                <a href="{{ .url }}" class="button btn-align-md accent-btn raised" target="_blank">{{ .buttonText }}</a>
+              {{- else }}
+                <a href="{{ .url }}" class="button btn-align-md accent-btn raised">{{ .buttonText }}</a>
+              {{- end }}
             </div>
           </div>
         </div>
