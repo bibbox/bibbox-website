@@ -1,7 +1,7 @@
 # Deploys the website to the server
 
 # build the website
-hugo
+hugo --minify
 
 # clean up the current files from the server
 ssh mupaadmin@labaccess.bibbox.org -p 9840 "rm -rf /var/www/bibbox-website/*"
