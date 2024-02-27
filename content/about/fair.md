@@ -8,11 +8,13 @@ date: 2024-02-13T10:23:24+01:00
 
 European guidelines recommend that scientific data should be made FAIR: **findable, accessible, interoperable, and reusable** [1]. However, FAIR guidelines do not specify how the stated principles should be implemented, it might not be straightforward for researchers to know how to actually make their data FAIR.
 
-The BIBBOX allows researchers to publish their data and the associated data management software (Apps) in a FAIR manner, through the incorporation of a [FAIR Data Point](http://bibbox.bbmri-eric.eu/what-is-a-fdp/) into the Apps. A FAIR Data Point allows exposing data and metadata in a FAIR-compliant manner. Users can search the metadata of the published datasets and, if the licensing conditions allow, access the data itself.
+The BIBBOX allows researchers to publish their data and the associated data management software (Apps) in a FAIR manner, through the incorporation of a [FAIR Data Point](/about/fair#fdp---fair-data-point) into the Apps. A FAIR Data Point allows exposing data and metadata in a FAIR-compliant manner. Users can search the metadata of the published datasets and, if the licensing conditions allow, access the data itself.
 
 The BIBBOX is a set of tools and services that support the creation and management of FAIR Data Points. The architecture of the BIBBOX is modular and flexible, allowing researchers to add a FAIR Data Point to existing open-source software solutions and to publish these in an App Store. Hence, it helps researchers make their data FAIR.
 
 *[1] Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)*
+
+---
 
 ## FDP - FAIR Data Point
 The FAIR Data Point exposes a resource-level description of catalogues, datasets, and distributions, in the DCAT format. This way, information about the contact person, licensing and data access procedures, is available in a standardized and machine-readable way.

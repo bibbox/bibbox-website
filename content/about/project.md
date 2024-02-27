@@ -17,6 +17,8 @@ The aim of the BIBBOX is to make it easy for researchers, healthcare professiona
 
 [FAIR Data Point: A FAIR-Oriented Approach for Metadata Publication](https://www.mitpressjournals.org/doi/10.1162/dint_a_00160)
 
+---
+
 # Our Solution
 Open Source Software Toolbox for Biobanks
 
@@ -25,6 +27,8 @@ BIBBOX will provide an integration platform for open-source software in the biob
 In a virtual machine we will install, configure and connect a core set of open-source biobank software tools, ready to go with minimal IT effort. Featured with random generated example data, interested stakeholders can use and evaluate open-source software solutions right “out of the box”.The composition of the BiBBoX software toolbox will be community based.
 
 [BIBBOX, a FAIR toolbox and App Store for life science research](https://www.sciencedirect.com/science/article/pii/S1871678423000298)
+
+---
 
 # The Community
 The BIBBOX platform is supported by the following institutions, projects, and people:
@@ -39,5 +43,6 @@ This project has received funding from the European Union’s Horizon 2020 resea
 [BBMRR-ERIC Common Service IT](http://bbmri-eric.eu/about)
 [BBMRI.at](http://bbmri.at/)
 
+---
 
 <img src="/images/cy_heap_eu_logo.png" alt="Anatomy of an App" width="600">
