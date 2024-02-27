@@ -13,3 +13,7 @@ Users can use demo data to test these three Apps. We provide a user management s
 [OpenSpecimen](http://bibbox.bbmri-eric.eu/openspecimen-sample-management/) is a biobank/biospecimen management tool.
 
 [PhenoTips](http://bibbox.bbmri-eric.eu/phenotips-patient-registry-and-pedigrees/) is a web-based tool for medical genetics.
+
+## Common Apps
+
+A list of common, non FAIR Apps with description can be found [here](/common-apps/).

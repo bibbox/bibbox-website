@@ -65,12 +65,16 @@ params:
       url: /about/architecture
     - title: Provenance
       url: /about/provenance
-    - title: FAIRified App Examples
-      url: /about/app-examples
   - title: Get started
     url: /get-started
-  - title: Create App
-    url: /create-app
+  - title: Apps
+    sublinks:
+    - title: Create App
+      url: /apps/create-app
+    - title: FAIRified App Examples
+      url: /apps/app-examples
+    - title: Common Apps
+      url: /apps/common-apps
   - title: Docs
     url: https://bibbox.readthedocs.io/en/latest/
     openOnNewPage: true
@@ -146,7 +150,5 @@ params:
           openOnNewPage: true
         - text: Get started
           link: /get-started
-        - text: Example Apps
-          link: /app-examples
-        - text: Create your own app
-          link: /create-app
+        - text: Common Apps
+          link: /apps/common-apps
