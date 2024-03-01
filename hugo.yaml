@@ -2,7 +2,11 @@ baseURL: http://webtest.bibbox.org/
 languageCode: en-us
 title: BIBBOX
 
-theme: 'hugo-fresh'
+module:
+  # uncomment line below for local development of module
+  # workspace: hugo.work
+  imports:
+    path: github.com/StefMa/hugo-fresh
 
 #googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
 # Disables warnings
@@ -52,7 +56,7 @@ params:
       text: GitHub Repo
     - logo: paper
       url: https://www.sciencedirect.com/science/article/pii/S1871678423000298
-      text: Research Paper
+      text: "Please Cite: Research Paper"
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: About
