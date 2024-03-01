@@ -63,4 +63,4 @@ hugo --minify
 ```
 The website will be generated in the `public` folder. You can copy the files to the server.
 ### Automatic deployment
-TODO: Add automatic deployment with github actions
+ Works
