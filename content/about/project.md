@@ -5,6 +5,11 @@ draft: false
 date: 2024-02-13T10:23:24+01:00
 ---
 
+![BIBBOX](/images/bibbox_v1.png)
+
+*The first version of the BIBBOX. Implemented as a box you can deploy to supply basic IT infrastructure.*
+
+---
 # Motivation
 Biological resources, such as cells, tissues or biomolecules are considered as the essential raw material for the advancement of biotechnology, human health, and for research and development in life sciences.
 
