@@ -117,7 +117,7 @@ params:
     title: One platform
     subtitle: With all the tools you need, ready in a click
     image: demo.mp4
-    buttonText: Try the playground
+    buttonText: Try it out!
     buttonLink: /demo
   section4:
     title: A word from our stake holders!
@@ -127,7 +127,7 @@ params:
       quote: With BIBBOX I can focus on my research and not on the infrastructure. I dont need to manage servers and can access all the tools I need in one place.
       job: Data Scientist
       img: 1
-    - name: John Walters
+    - name: Petr Holub
       quote: The concept of FAIR-Health is crucial for the secondray use of health data. BIBBOX Apps suppprt the monitoring of data quality and privacy, as well as the documentaion of sample and data provenance.
       job: Biomedical Engineer
       img: 2

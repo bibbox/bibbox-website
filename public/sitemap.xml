@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://bibbox.bbmri-eric.eu/</loc>
-  </url><url>
-    <loc>http://bibbox.bbmri-eric.eu/categories/</loc>
-  </url><url>
-    <loc>http://bibbox.bbmri-eric.eu/tags/</loc>
-  </url>
-</urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>http://webtest.bibbox.org/apps/</loc><lastmod>2024-02-27T13:31:45+01:00</lastmod></url><url><loc>http://webtest.bibbox.org/</loc><lastmod>2024-02-27T13:31:45+01:00</lastmod></url><url><loc>http://webtest.bibbox.org/apps/common-apps/</loc><lastmod>2024-02-27T13:31:45+01:00</lastmod></url><url><loc>http://webtest.bibbox.org/demo/</loc><lastmod>2024-02-16T11:14:40+01:00</lastmod></url><url><loc>http://webtest.bibbox.org/apps/app-examples/</loc><lastmod>2024-02-16T10:56:58+01:00</lastmod></url><url><loc>http://webtest.bibbox.org/about/</loc><lastmod>2024-02-13T10:23:24+01:00</lastmod></url><url><loc>http://webtest.bibbox.org/about/architecture/</loc><lastmod>2024-02-13T10:23:24+01:00</lastmod></url><url><loc>http://webtest.bibbox.org/apps/create-app/</loc><lastmod>2024-02-13T10:23:24+01:00</lastmod></url><url><loc>http://webtest.bibbox.org/about/fair/</loc><lastmod>2024-02-13T10:23:24+01:00</lastmod></url><url><loc>http://webtest.bibbox.org/get-started/</loc><lastmod>2024-02-13T10:23:24+01:00</lastmod></url><url><loc>http://webtest.bibbox.org/about/project/</loc><lastmod>2024-02-13T10:23:24+01:00</lastmod></url><url><loc>http://webtest.bibbox.org/about/provenance/</loc><lastmod>2024-02-13T10:23:24+01:00</lastmod></url><url><loc>http://webtest.bibbox.org/categories/</loc></url><url><loc>http://webtest.bibbox.org/tags/</loc></url></urlset>

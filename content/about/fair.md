@@ -29,6 +29,6 @@ The FDP uses the W3C's Data Catalog Vocabulary (DCAT) version 2 as the basis for
 
 The BIBBOX allows the introduction of a FAIR Data Point in its Apps, supporting researchers in making their data FAIR.
 
-*[1] da Silva Santos, L. O. B., Burger, K., Kaliyaperumal, R., & Wilkinson, M. D. (2023). FAIR Data Point: A FAIR-Oriented Approach for Metadata Publication. Data Intelligence, 5(1), 163–183. doi:10.1162/dint_a_00160*
+*[1] da Silva Santos, L. O. B., Burger, K., Kaliyaperumal, R., & Wilkinson, M. D. (2023). [FAIR Data Point: A FAIR-Oriented Approach for Metadata Publication](https://direct.mit.edu/dint/article/5/1/163/112599/FAIR-Data-Point-A-FAIR-Oriented-Approach-for). Data Intelligence, 5(1), 163–183. doi:10.1162/dint_a_00160*
 
-*[2] da Silva Santos, LO Bonino, et al. "FAIR data points supporting big data interoperability." Enterprise Interoperability in the Digitized and Networked Factory of the Future. ISTE, London (2016): 270-279.*
+*[2] da Silva Santos, LO Bonino, et al. "FAIR data points supporting big data interoperability." [Enterprise Interoperability in the Digitized and Networked Factory of the Future](https://link.springer.com/book/10.1007/978-3-319-30957-6). ISTE, London (2016): 270-279.*
