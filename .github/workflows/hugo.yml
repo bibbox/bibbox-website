@@ -58,6 +58,6 @@ jobs:
           key: ${{ secrets.SSH_KEY }}      # Uncomment this if using an SSH key
           port: ${{ variables.SSH_PORT }}
           source: "./public/*"
-          target: ${{ variables.TARGET_DIR }}
+          target: ${{ env.TARGET_DIR }}
 
 
