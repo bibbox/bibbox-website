@@ -11,6 +11,10 @@ The live website is hosted on [bibbox.bbmri-eric.eu](bibbox.bbmri-eric.eu/)
 ### Changing content
 For changing content, you have to change the markdown files in the `content` folder.
 You can also write native HTML in the markdown files.
+Put resources like images in the `static` folder. You can reference them in the markdown files with the following syntax:
+```markdown
+![BIBBOX](/images/bibbox_v1.png)
+```
 
 Tipp: Images can be sized with the img tag in HTML.
 
@@ -61,6 +65,13 @@ You can manually generate the website with the following command:
 ```bash
 hugo --minify
 ```
-The website will be generated in the `public` folder. You can copy the files to the server.
+The website will be generated in the `public` folder. You can copy the files to the server or use the deploy script in the root folder.
+Note: this needs your ssh key to be added to the server first.
+
+```bash
+sh deploy.sh
+```
+
+
 ### Automatic deployment
- Works
+By pushing to the main branch, the website will be automatically be build and deployed to the server via github actions.
