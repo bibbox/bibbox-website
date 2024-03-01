@@ -47,6 +47,7 @@ jobs:
 
   deploy:
     # Deployment job
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to Server
