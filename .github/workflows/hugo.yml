@@ -21,7 +21,7 @@ defaults:
 
 jobs:
   # Build job
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.120.4
@@ -44,13 +44,7 @@ jobs:
         run: |
           hugo \
             --minify
-
-  deploy:
-    # Deployment job
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to Server
+      - name: deploy
         uses: appleboy/scp-action@master
         with:
           host: mupaadmin@labaccess.bibbox.org
@@ -60,5 +54,3 @@ jobs:
           port: ${{ env.SSH_PORT }}
           source: "./public/*"
           target: ${{ env.TARGET_DIR }}
-
-
