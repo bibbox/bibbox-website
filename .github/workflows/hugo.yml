@@ -47,10 +47,11 @@ jobs:
       - name: deploy
         uses: appleboy/scp-action@master
         with:
-          host: mupaadmin@labaccess.bibbox.org
-          # username: ${{ secrets.USERNAME }}
+          host: labaccess.bibbox.org
+          username: ${{ secrets.SSH_USERNAME }}
           # password: ${{ secrets.PASSWORD }} # Use either password or key
           key: ${{ secrets.SSH_KEY }}      # Uncomment this if using an SSH key
           port: ${{ env.SSH_PORT }}
-          source: "./public/*"
+          source: "public/*"
           target: ${{ env.TARGET_DIR }}
+          rm: true # Remove all files in the target directory before copying
