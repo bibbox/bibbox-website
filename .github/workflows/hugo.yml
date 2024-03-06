@@ -52,5 +52,5 @@ jobs:
           key: ${{ secrets.SSH_KEY }}      # Uncomment this if using an SSH key
           port: 9840
           source: "public/*"
-          target: /var/www/bibbox-website
+          target: /var/www/bibbox-website/*
           rm: true # Remove all files in the target directory before copying
