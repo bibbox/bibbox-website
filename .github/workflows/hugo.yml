@@ -52,6 +52,7 @@ jobs:
           # password: ${{ secrets.PASSWORD }} # Use either password or key
           key: ${{ secrets.SSH_KEY }}      # Uncomment this if using an SSH key
           port: ${{ env.SSH_PORT }}
+          proxy_port: ${{ env.SSH_PORT }}
           source: "public/*"
           target: ${{ env.TARGET_DIR }}
           rm: true # Remove all files in the target directory before copying
