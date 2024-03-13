@@ -32,3 +32,12 @@ The BIBBOX allows the introduction of a FAIR Data Point in its Apps, supporting 
 *[1] da Silva Santos, L. O. B., Burger, K., Kaliyaperumal, R., & Wilkinson, M. D. (2023). [FAIR Data Point: A FAIR-Oriented Approach for Metadata Publication](https://direct.mit.edu/dint/article/5/1/163/112599/FAIR-Data-Point-A-FAIR-Oriented-Approach-for). Data Intelligence, 5(1), 163–183. doi:10.1162/dint_a_00160*
 
 *[2] da Silva Santos, LO Bonino, et al. "FAIR data points supporting big data interoperability." [Enterprise Interoperability in the Digitized and Networked Factory of the Future](https://link.springer.com/book/10.1007/978-3-319-30957-6). ISTE, London (2016): 270-279.*
+
+---
+Login to the demo system and try out the FAIR Data Point.
+
+<div style="display: flex; width:100%; justify-content: center;">
+    <a href="http://fair.bibbox.org/info" target="_blank" style="color: white;">
+        <button class="button signup-button rounded secondary-btn raised" style="width: unset;" >Demo Login</span>
+    </a>
+</div>
