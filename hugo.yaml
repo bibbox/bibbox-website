@@ -1,4 +1,5 @@
 baseURL: http://webtest.bibbox.org/
+#publishDir: bibbox-website
 languageCode: en-us
 title: BIBBOX
 
@@ -36,7 +37,7 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Basic Infrastucture building Box
+    title: Basic Infrastructure Building Box
     # Hero subtitle (optional)
     subtitle: With the aim to make it easy for researchers and healthcare professionals to access and use biomedical informatics tools without hassle
     # Button text

@@ -75,3 +75,25 @@ sh deploy.sh
 
 ### Automatic deployment
 By pushing to the main branch, the website will be automatically be build and deployed to the server via github actions.
+
+## Github action local testing
+To make the CD pipeline easier to debug, the tool act can execute the github action locally.
+Docs: https://nektosact.com/usage/index.html
+Github: [https://github.com/nektos/act]
+
+You can install act with the following command:
+
+```bash
+brew install act
+```
+
+You can test the github action locally with the following command:
+```bash
+act
+```
+
+As the action is using secrets, the following command executes the action with the secrets provided in the file `my.secrets`, formated as .env file.
+
+```bash
+act --secret-file my.secrets
+```
