@@ -1,5 +1,4 @@
 baseURL: http://webtest.bibbox.org/
-#publishDir: bibbox-website
 languageCode: en-us
 title: BIBBOX
 
@@ -70,6 +69,8 @@ params:
       url: /about/architecture
     - title: Provenance
       url: /about/provenance
+    - title: Demo
+      url: /demo
   - title: Get started
     url: /get-started
   - title: Apps
