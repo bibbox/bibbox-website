@@ -53,8 +53,9 @@ jobs:
         run: |
           hugo \
             --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/bibbox-website/" 
+            --minify 
+            #\
+            #--baseURL "${{ steps.pages.outputs.base_url }}/bibbox-website/" 
             
 
       - name: Upload artifact
