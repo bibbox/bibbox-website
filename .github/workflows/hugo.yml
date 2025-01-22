@@ -53,9 +53,13 @@ jobs:
         run: |
           hugo \
             --gc \
-            --minify #\
-            #--baseURL "https://bibbox.github.io/bibbox-website/" 
-            
+            --minify \
+            --baseURL "https://bibbox.github.io/bibbox-website/" 
+      - name: Rewrite Paths
+          run: |
+            find public/ -name '*.html' -exec sed -i 's|src="/|src="/bibbox-website/|g' {} +
+            find public/ -name '*.html' -exec sed -i 's|href="/|href="/bibbox-website/|g' {} +
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
