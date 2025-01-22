@@ -56,11 +56,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/bibbox-website/" 
             
-      - name: Rewrite Paths
-        run: |
-          find public/ -name '*.html' -exec sed -i 's|src="/|src="/bibbox-website/|g' {} +
-          find public/ -name '*.html' -exec sed -i 's|href="/|href="/bibbox-website/|g' {} +
-          
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -72,7 +68,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      #url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
