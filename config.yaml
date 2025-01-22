@@ -1,4 +1,4 @@
-baseURL: https://bibbox.github.io/bibbox-website/
+relativeURLs: true
 
 # Dependency 'bulma' is brought in as module
 # and mount points are declared
