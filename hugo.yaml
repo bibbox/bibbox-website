@@ -1,4 +1,5 @@
-baseURL: https://bibbox.github.io/bibbox-website/
+#baseURL: https://bibbox.github.io/bibbox-website/
+relativeURLs = true
 languageCode: en-us
 title: BIBBOX
 
