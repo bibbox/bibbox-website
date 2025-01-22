@@ -65,7 +65,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.pages.outputs.base_url }}/bibbox-website
+      url: ${{ steps.pages.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
