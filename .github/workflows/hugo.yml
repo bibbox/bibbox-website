@@ -54,7 +54,8 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://bibbox.github.io/bibbox-website/"
+            --baseURL "https://bibbox.github.io/bibbox-website/" \
+            --relativeURLs
             
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
