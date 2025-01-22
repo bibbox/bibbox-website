@@ -53,8 +53,8 @@ jobs:
         run: |
           hugo \
             --gc \
-            --minify \
-            --baseURL "https://bibbox.github.io/bibbox-website/" 
+            --minify 
+#            --baseURL "https://bibbox.github.io/bibbox-website/" 
             
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
